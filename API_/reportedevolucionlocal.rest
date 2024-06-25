@@ -1,0 +1,12 @@
+GET http://localhost:3030/reportedevolucionlocal/1
+
+###
+
+POST http://localhost:3030/reportedevolucionlocal
+Content-Type: application/json
+
+{
+  "Pk_fk_numlocal": "156",
+  "Fecha_devolucion": "2021-09-12 08:30:00",
+  "Motivo_devolucion": "producto equivocado"
+}

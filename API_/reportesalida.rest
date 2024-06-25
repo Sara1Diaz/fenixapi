@@ -1,0 +1,14 @@
+
+
+GET http://localhost:3030/reportesalida/1
+
+###
+
+POST http://localhost:3030/reportesalida
+Content-Type: application/json
+
+{
+  "Fecha_emision": "  2021-12-14 12:35:00",
+  "PK_fk_numlocal_destino": "5",
+  "Descripcion_salida": "salida exitosa al centro comercial plaza españa local 1"
+}

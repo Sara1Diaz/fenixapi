@@ -1,0 +1,15 @@
+
+
+GET http://localhost:3030/tipodocumento/1
+
+###
+
+POST http://localhost:3030/tipodocumento
+Content-Type: application/json
+
+{
+
+  "Id_tdoc": "12",
+  "Tdoc": "tarjeta identidad"
+  
+}

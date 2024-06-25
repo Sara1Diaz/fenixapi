@@ -1,0 +1,17 @@
+
+
+
+GET http://localhost:3030/detalledevolucionlocal/1
+
+###
+
+POST http://localhost:3030/detalledevolucionlocal
+Content-Type: application/json
+
+{
+
+  "PK_fk_Id_devolucion": "4",
+  "PK_fk_Id_bodega_destino": "4",
+  "PK_fk_Id_producto": "4",
+  "Cantidad_devuelta": "300"
+}

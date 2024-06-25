@@ -1,0 +1,18 @@
+
+
+
+GET http://localhost:3030/rol/1
+
+###
+
+POST http://localhost:3030/rol
+Content-Type: application/json
+
+{
+  "Desc_rol": "descripción_del_rol",
+  "Estado_rol": "estado_del_rol"
+
+}
+
+
+

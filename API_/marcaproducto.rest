@@ -1,0 +1,16 @@
+
+
+
+GET http://localhost:3030/marcaproducto/1
+
+###
+
+POST http://localhost:3030/marcaproducto
+Content-Type: application/json
+
+{
+  
+  "Nom_marca_producto": "Nike",
+  "Estado_marca_producto": "0"
+  
+}

@@ -1,0 +1,19 @@
+
+
+
+GET http://localhost:3030/movimientoinventario/1
+
+###
+
+POST http://localhost:3030/movimientoinventario
+Content-Type: application/json
+
+{
+
+ 
+  "PK_fk_Id_producto": "2",
+  "PK_fk_Id_tmovimiento": "2",
+  "Fecha_movimiento": "2022-04-05 12:45:20"
+}
+
+

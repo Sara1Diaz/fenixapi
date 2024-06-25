@@ -1,0 +1,16 @@
+
+
+
+GET http://localhost:3030/tipomovimiento/2
+
+###
+
+POST http://localhost:3030/tipomovimiento
+Content-Type: application/json
+
+{
+  "Descrip_tp_movimiento": "salida"
+}
+
+
+

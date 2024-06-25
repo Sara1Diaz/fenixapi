@@ -1,0 +1,17 @@
+
+
+
+GET http://localhost:3030/bodega/1
+
+###
+
+POST http://localhost:3030/bodega
+Content-Type: application/json
+
+
+{
+  "PK_fk_Id_marca_producto": 2,
+  "Ubicacion_bodega": "Bodega 4 al lado del  local 155",
+  "PK_fk_Id_usuariobodeguero": 2
+}
+

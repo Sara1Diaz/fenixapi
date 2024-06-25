@@ -1,0 +1,16 @@
+
+GET http://localhost:3030/reportepedido/1
+
+###
+
+POST http://localhost:3030/reportepedido
+Content-Type: application/json
+
+{
+  "Pk_fk_numlocal": "152",
+  "Pk_fk_Id_envio": "1",
+  "Fecha_emision": "2023-11-30 10:05:00",
+  "Nombre_cliente": "juan",
+  "Apellido_cliente": "perez",
+  "Telefono_cliente": "325674125"
+}

@@ -1,0 +1,15 @@
+
+
+
+GET http://localhost:3030/local/1
+
+###
+
+POST http://localhost:3030/local
+Content-Type: application/json
+
+{
+  "Num_local": "54",
+  "Centro_comercial": "plaza españa",
+  "PK_fk_Id_usuariovendedor": "3"
+}

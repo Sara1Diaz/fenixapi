@@ -1,0 +1,20 @@
+
+
+
+GET http://localhost:3030/envio/1
+
+###
+
+POST http://localhost:3030/envio
+Content-Type: application/json
+
+{
+  
+  "Pk_fk_id_pedido": "clave_foránea_del_pedido",
+  "Tipo_envio": "tipo_de_envío",
+  "Nom_transportadora": "nombre_de_la_transportadora",
+  "Ciudad_envio": "ciudad_de_envío",
+  "Direccion_entrega": "dirección_de_entrega",
+  "Valor_envio": "valor_del_envío",
+  "Fecha_estimada_entrega_pedido": "2020-00-00 00:00:00"
+}

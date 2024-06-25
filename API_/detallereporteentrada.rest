@@ -1,0 +1,19 @@
+
+
+
+GET http://localhost:3030/detallereporteentrada/1
+
+###
+
+POST http://localhost:3030/detallereporteentrada
+Content-Type: application/json
+
+{
+
+  "PK_fk_Id_entrada": "2",
+  "PK_fk_Id_bodega_destino": "2",
+  "PK_fk_Id_producto": "2",
+  "Cantidad_total_entradas": "50",
+  "Valor_entradas": "400000",
+  "Subtotal_entradas": "200000"
+}

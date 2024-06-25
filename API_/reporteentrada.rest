@@ -1,0 +1,12 @@
+GET http://localhost:3030/reporteentrada
+
+###
+
+POST http://localhost:3030/reporteentrada
+Content-Type: application/json
+
+{
+  "Fecha_emision": "2021-09-14 12:35:00",
+  "Pk_fk_Id_usuarioproveedor": "4",
+  "Descripcion_entrada": "entrada exitosa al local luxury"
+}

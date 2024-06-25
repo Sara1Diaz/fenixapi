@@ -1,0 +1,25 @@
+
+
+
+GET http://localhost:3030/usuario/1
+
+###
+
+POST http://localhost:3030/usuario
+Content-Type: application/json
+
+{
+    "PK_fk_Id_tdoc": "CC",
+    "Numero_documento": "1017062044",
+    "Primer_nombre": "sara",
+    "Segundo_nombre": "naidu",
+    "Primer_apellido": "diaz",
+    "Segundo_apellido": "gonzalez",
+    "Telefono_contacto": "3223381920",
+    "Email": "mibuho05314@gmail.com",
+    "Pk_fk_Id_Cod_rol": "2",
+    "Clave": "sara134",
+    "Estado_usuario": "1"
+}
+
+

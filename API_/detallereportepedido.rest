@@ -1,0 +1,18 @@
+
+
+
+GET http://localhost:3030/detallereporteentrada/1
+
+###
+
+POST http://localhost:3030/detallereportepedido
+Content-Type: application/json
+
+{
+  "Pk_fk_id_pedido": "1",
+  "Metodo_pago": "tranferencia bancaria ",
+  "Pk_fk_Idproducto": "1",
+  "Cantidad_producto": "500",
+  "Valor_producto": "3000",
+  "Total_pedido": "900000"
+}

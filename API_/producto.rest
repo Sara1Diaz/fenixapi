@@ -1,0 +1,22 @@
+GET http://localhost:3030/producto/1
+
+###
+
+POST http://localhost:3030/producto
+Content-Type: application/json
+
+{
+    "PK_fk_Id_marca_producto": 3,
+    "Modelo_producto": "jordan perm",
+    "Tipo_producto": "juvenil",
+    "Color_producto": "azul con blanco",
+    "Precio_producto": 350000,
+    "Talla_disponible_producto": "37-69",
+    "Cantidad_disponible_producto": 200
+}
+
+
+
+
+
+
